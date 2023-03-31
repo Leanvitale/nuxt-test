@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl sm:text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Simple no-tricks pricing
+          About our pricing
         </h2>
         <p class="mt-6 text-lg leading-8 text-gray-600">
           Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
@@ -56,7 +56,7 @@
               </p>
               <p class="mt-6 flex items-baseline justify-center gap-x-2">
                 <span class="text-5xl font-bold tracking-tight text-gray-900"
-                  >$349</span
+                  >$19</span
                 >
                 <span
                   class="text-sm font-semibold leading-6 tracking-wide text-gray-600"
@@ -64,10 +64,10 @@
                 >
               </p>
               <NuxtLink
-                to="/about"
+                to="/"
                 class="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Go to About
+                Go to Index
               </NuxtLink>
               <p class="mt-6 text-xs leading-5 text-gray-600">
                 Invoices and receipts available for easy company reimbursement
@@ -80,7 +80,7 @@
   </div>
 </template>
   
-  <script setup>
+<script setup>
 import { CheckIcon } from "@heroicons/vue/20/solid";
 
 const includedFeatures = [
