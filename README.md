@@ -1,6 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# InvestManager - Website
 
 ## Setup
 
@@ -25,12 +23,12 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
+## Deploy to Production
 
-Build the application for production:
+Build the application for production and deploy:
 
 ```bash
-npm run build
+npm run deploy
 ```
 
 Locally preview production build:
@@ -39,4 +37,12 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Stack
+
+```bash
+* Nuxt 3        #Framework
+* Tailwind 3    #CSS
+* Sass          #CSS
+* Firebase      #Hosting
+* i18n          #Translations
+```
