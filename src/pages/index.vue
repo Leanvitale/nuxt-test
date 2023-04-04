@@ -1,22 +1,33 @@
 <template>
     <div>
-        <section class="py-32">
-            <layout-intro />
+        <navbar />
+        <section class="pb-8 lg:pb-24 pt-[72px]">
+            <banner />
+            <hero />
         </section>
 
-        <section class="py-32">
+        <section class="py-16 lg:py-12">
+            <problems />
+        </section>
+
+        <section class="py-16 lg:py-32">
             <quote />
         </section>
 
-        <section class="py-32">
+        <section class="py-16 lg:py-12">
             <benefits />
+        </section>
+
+        <section class="py-16 lg:py-12">
+            <call-to-action-city />
+        </section>
+
+        <section class="py-16 lg:py-12">
+            <pricing />
+        </section>
+
+        <section class="py-16 lg:py-12">
+            <call-to-action />
         </section>
     </div>
 </template>
-
-<script setup>
-import { CheckIcon } from '@heroicons/vue/20/solid'
-const { locale } = useI18n()
-
-const includedFeatures = ['Private forum access', 'Member resources', 'Entry to annual conference', 'Official member t-shirt']
-</script>

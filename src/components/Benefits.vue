@@ -1,39 +1,85 @@
 <template>
     <div class="flex flex-col">
-        <layout-intro />
-        <div class="pt-20 columns-2 w-4/6 px-6 tablets:px-0 mx-auto">
-            <div class="relative flex items-start w-11/12">
-                <svg class="mr-6 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path
-                        fill-rule="evenodd"
-                        d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                        clip-rule="evenodd"
-                    />
-                </svg>
-                <div class="flex flex-col">
-                    <p class="text-base text-dark font-bold mb-3">Push to deploy</p>
-                    <p class="text-base text-slate-400">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia nihil consequatur illo cupiditate, facere, aspernatur
-                        ducimus est ratione placeat inventore.
-                    </p>
+        <layout-intro :intro="$t('solution.slogan')" :title="$t('solution.title')" :message="$t('solution.message')" />
+
+        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl px-6">
+            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+                <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                            <component :is="BoltIcon" class="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        {{ $t('feature.a.title') }}
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">
+                        {{ $t('feature.a.description') }}
+                    </dd>
                 </div>
-            </div>
-            <div class="relative flex items-start w-11/12 mr-8">
-                <svg class="mr-6 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path
-                        fill-rule="evenodd"
-                        d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                        clip-rule="evenodd"
-                    />
-                </svg>
-                <div class="flex flex-col">
-                    <p class="text-base text-dark font-bold mb-3">Push to deploy</p>
-                    <p class="text-base text-slate-400">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia nihil consequatur illo cupiditate, facere, aspernatur
-                        ducimus est ratione placeat inventore.
-                    </p>
+
+                <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                            <component :is="UsersIcon" class="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        {{ $t('feature.b.title') }}
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">
+                        {{ $t('feature.b.description') }}
+                    </dd>
                 </div>
-            </div>
+
+                <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                            <component :is="ComputerDesktopIcon" class="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        {{ $t('feature.c.title') }}
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">
+                        {{ $t('feature.c.description') }}
+                    </dd>
+                </div>
+
+                <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                            <component :is="BanknotesIcon" class="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        {{ $t('feature.d.title') }}
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">
+                        {{ $t('feature.d.description') }}
+                    </dd>
+                </div>
+
+                <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                            <component :is="RectangleStackIcon" class="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        {{ $t('feature.e.title') }}
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">
+                        {{ $t('feature.e.description') }}
+                    </dd>
+                </div>
+
+                <div class="relative pl-16">
+                    <dt class="text-base font-semibold leading-7 text-gray-900">
+                        <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
+                            <component :is="LockClosedIcon" class="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        {{ $t('feature.f.title') }}
+                    </dt>
+                    <dd class="mt-2 text-base leading-7 text-gray-600">
+                        {{ $t('feature.f.description') }}
+                    </dd>
+                </div>
+            </dl>
         </div>
     </div>
 </template>
+
+<script setup>
+import { BoltIcon, UsersIcon, ComputerDesktopIcon, BanknotesIcon, RectangleStackIcon, LockClosedIcon } from '@heroicons/vue/24/outline'
+</script>

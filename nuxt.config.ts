@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n"],
-    srcDir: "src",
-    css: ["~/assets/css/main.css", "~/assets/css/main.scss"],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+    srcDir: 'src',
+    css: ['~/assets/css/main.css', '~/assets/css/main.scss'],
     postcss: {
         plugins: {
             tailwindcss: {},
@@ -12,23 +12,23 @@ export default defineNuxtConfig({
     },
     i18n: {
         lazy: true,
-        langDir: "locales",
-        strategy: "prefix_and_default",
+        langDir: 'locales',
+        strategy: 'prefix_and_default',
         locales: [
             {
-                code: "en",
-                name: "English",
-                file: "en.json",
+                code: 'en',
+                name: 'English',
+                file: 'en.json',
             },
             {
-                code: "es",
-                name: "Spanish",
-                file: "es.json",
+                code: 'es',
+                name: 'Spanish',
+                file: 'es.json',
             },
         ],
-        defaultLocale: "en",
+        defaultLocale: 'en',
         vueI18n: {
-            fallbackLocale: "en",
+            fallbackLocale: 'en',
         },
     },
-});
+})

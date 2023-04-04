@@ -1,26 +1,14 @@
 <template>
-    <div class="bg-dark py-14 tablets:py-8 tabletl:py-14 desktop:py-24 px-6 flex flex-col tablets:flex-row items-center relative">
+    <div class="bg-dark py-8 px-4 md:px-12 flex-wrap md:flex h-fit md:justify-around">
         <img
             src="./../assets/img/benjamin.png"
             alt="Benjamin Franklin"
-            class="w-full tablets:w-2/5 mr-10 ml-8 tablets:absolute aspect-video order-2 tablets:order-1 media"
+            class="w-auto max-w-xs md:max-w-sm h-fit -my-12 max-md:mx-auto self-center xl:ml-24"
         />
-        <div class="w-full tablets:w-3/6 mb-8 tablets:mb-0 tablets:ml-auto tablets:mr-0 order-1 tablets:order-2">
-            <h3 class="text-white text-5xl italic mb-9">"Time is money"</h3>
+        <div class="w-fit mt-20 md:mt-0 text-center max-md:mx-auto md:text-left self-center xl:mr-36">
+            <h3 class="text-white text-4xl md:text-4xl lg:text-6xl mb-6 md:mb-9">Time is money</h3>
             <p class="text-sm font-bold text-white mb-1">Benjamin Franklin</p>
             <p class="text-xs text-light font-light">Founder of the United States</p>
         </div>
     </div>
 </template>
-
-<style lang="scss" scoped>
-.media {
-    @media all and (min-width: 640px) {
-        height: 120%;
-    }
-
-    @media all and (min-width: 1280) {
-        height: auto;
-    }
-}
-</style>
