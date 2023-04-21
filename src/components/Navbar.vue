@@ -113,7 +113,7 @@ const loginMobile = () => {
 
 const isMobile = computed(() => {
     if (
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(process.browser ? window.navigator.userAgent : 'Mozilla/5.0') ||
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(window ? window.navigator.userAgent : 'Mozilla/5.0') ||
         windowWidth.value < 1024
     ) {
         return true
