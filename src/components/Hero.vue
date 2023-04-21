@@ -15,7 +15,7 @@
         </div>
         <div class="w-full lg:w-1/2">
             <img
-                src="../assets/img/Hombre.jpg"
+                src="../assets/img/Hombre.webp"
                 alt=""
                 class="object-cover max-lg:aspect-video lg:h-[calc(100vh_-_120px)] lg:w-auto overflow-hidden lg:ml-auto"
             />

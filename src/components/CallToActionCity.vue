@@ -9,7 +9,7 @@
 
 <style scoped>
 .custom-img {
-    background-image: url('../assets/img/NY-BW.jpg');
+    background-image: url('../assets/img/NY-BW.webp');
 }
 
 .text-shadow {

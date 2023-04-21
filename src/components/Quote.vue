@@ -1,7 +1,7 @@
 <template>
     <div class="bg-dark py-8 px-4 md:px-12 flex-wrap md:flex h-fit md:justify-around">
         <img
-            src="./../assets/img/benjamin.png"
+            src="./../assets/img/benjamin.webp"
             alt="Benjamin Franklin"
             class="w-auto max-w-xs md:max-w-sm h-fit -my-12 max-md:mx-auto self-center xl:ml-24"
         />

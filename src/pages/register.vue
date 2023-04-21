@@ -1,7 +1,7 @@
 <template>
     <div class="max-md:flex-col lg:flex lg:h-screen">
         <div class="w-full lg:w-1/2">
-            <img src="../assets/img/ny-city.jpg" alt="" class="object-cover max-lg:aspect-video lg:h-screen lg:w-full overflow-hidden" />
+            <img src="../assets/img/ny-city.webp" alt="" class="object-cover max-lg:aspect-video lg:h-screen lg:w-full overflow-hidden" />
         </div>
         <div class="w-full max-md:mt-8 lg:w-1/2 flex-col px-6 lg:px-12 self-center">
             <div class="w-fit mx-auto">
