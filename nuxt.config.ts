@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/gtm'],
+    gtm: {
+        id: 'GTM-PMH9Q5H',
+        enabled: true,
+    },
     srcDir: 'src',
     css: ['~/assets/css/main.css', '~/assets/css/main.scss'],
     postcss: {
