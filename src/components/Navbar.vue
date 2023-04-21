@@ -93,14 +93,14 @@ const showModal = ref(false)
 
 onMounted(() => {
     window.addEventListener('resize', () => {
-        if (process.browser) {
+        if (process && process.browser) {
             windowWidth.value = window.innerWidth
         }
     })
 })
 onUnmounted(() => {
     window.removeEventListener('resize', () => {
-        if (process.browser) {
+        if (process && process.browser) {
             windowWidth.value = window.innerWidth
         }
     })
