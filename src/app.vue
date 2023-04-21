@@ -21,6 +21,13 @@ useHead({
             content: `${t('header.keywords')}`,
         },
     ],
+    link: [
+        {
+            rel: 'icon',
+            type: 'image/svg+xml',
+            href: 'https://firebasestorage.googleapis.com/v0/b/me-investmanager.appspot.com/o/favicon.svg?alt=media',
+        },
+    ],
 })
 
 useServerSeoMeta({
