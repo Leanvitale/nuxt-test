@@ -25,7 +25,7 @@
                                     id="first-name"
                                     required="true"
                                     autocomplete="given-name"
-                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
+                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm border-inputs placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                                     id="last-name"
                                     required="true"
                                     autocomplete="family-name"
-                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
+                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm border-inputs placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                                     id="email"
                                     required="true"
                                     autocomplete="email"
-                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
+                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm border-inputs placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                                     id="phone"
                                     required="true"
                                     autocomplete="family-name"
-                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
+                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm border-inputs placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                                     id="password"
                                     required="true"
                                     autocomplete="password"
-                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
+                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm border-inputs placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 />
                             </div>
                         </div>

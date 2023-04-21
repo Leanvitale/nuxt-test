@@ -1,6 +1,6 @@
 <template>
     <!-- ====== Footer Section Start -->
-    <footer class="relative z-10 bg-white p-6 pb-10 lg:pt-[120px] lg:pb-20">
+    <footer class="relative z-10 bg-white pb-10 lg:pt-[120px] lg:pb-20">
         <div class="container mx-auto px-6">
             <div class="-mx-4 flex flex-wrap justify-center">
                 <div class="w-full px-4 sm:w-full lg:w-4/12 order-3 lg:order-1 max-md:mt-9">
@@ -79,7 +79,7 @@
                                     v-model="email"
                                     :placeholder="String($t('footer.emial'))"
                                     autocomplete="email"
-                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
+                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm border-inputs placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                                 />
                                 <button
                                     :disabled="isValid || isSending"

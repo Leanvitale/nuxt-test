@@ -17,18 +17,18 @@
     },
     "banner": {
         "first": "Enjoy 2 month free",
-        "second": "Use InvestManager and see how your fund takes off",
+        "second": "Use Invest Manager and see how your fund takes off",
         "cta": "Register now"
     },
     "hero": {
-        "title": "Manage more investors in less time",
-        "description": "InvestManager automates administrative management for traders who manage investment funds and third-party capital. Maximize your returns and focus on what really matters, your operations.",
+        "title": "Create your Investment Fund",
+        "description": "Invest Manager automates administrative management for those who manage investment funds and third-party capital. Maximize your returns and focus on what really matters, your operations.",
         "cta": "Try Invest Manager today"
     },
     "problems": {
         "intro": "Some problems with",
-        "title": "Your Own Investment Fund",
-        "message": "Managing your own investment fund can bring many benefits in the medium and long term, and can be an excellent strategy for an experienced investor or trader looking to climb the ranks in the financial industry. However, it's important to note that managing an investment fund comes with several challenges:",
+        "title": "Start your own investment fund",
+        "message": "Managing your own investment fund can bring many benefits in the medium and long term, and can be an excellent strategy for an experienced investor looking to climb the ranks in the financial industry. However, it is important to keep in mind that managing an investment fund comes with several challenges:",
         "list": {
             "math": {
                 "title": "Doing the math",
@@ -136,7 +136,7 @@
             },
             {
                 "title": "How can I access the Invest Manager platform?",
-                "message": "Once registered, you can access the platform with the links we have provided below.\n\nI am a Manager: https://admin.investmanager.app\n\nI am an Investor: https://me.investmanager.app"
+                "message": "Once registered, you can access the platform with the links we have provided below.\n\nI am a Manager: https://admin.Invest Manager.app\n\nI am an Investor: https://me.Invest Manager.app"
             },
             {
                 "title": "How can I contact the technical support team of Invest Manager?",
