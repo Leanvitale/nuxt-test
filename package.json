@@ -4,7 +4,7 @@
     "scripts": {
         "build": "nuxt build",
         "dev": "nuxt dev --port 8080",
-        "deploy": "nuxt generate && firebase deploy",
+        "deploy": "nuxt generate --modern=server && firebase deploy",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare"

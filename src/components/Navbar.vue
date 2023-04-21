@@ -48,17 +48,20 @@
                             <div class="-my-6 divide-y divide-gray-500/10">
                                 <div class="space-y-2 py-6">
                                     <a
-                                        href="#"
+                                        href="#Features"
+                                        @click="mobileMenuOpen = false"
                                         class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                         >{{ $t('navbar.features') }}</a
                                     >
                                     <a
-                                        href="#"
+                                        href="#Pricing"
+                                        @click="mobileMenuOpen = false"
                                         class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                         >{{ $t('navbar.pricing') }}</a
                                     >
                                     <a
-                                        href="#"
+                                        href="#Contact"
+                                        @click="mobileMenuOpen = false"
                                         class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                         >{{ $t('navbar.contact') }}</a
                                     >
@@ -93,27 +96,31 @@ const showModal = ref(false)
 
 onMounted(() => {
     window.addEventListener('resize', () => {
-        if (window) {
+        if (typeof window !== 'undefined') {
             windowWidth.value = window.innerWidth
         }
     })
 })
 onUnmounted(() => {
     window.removeEventListener('resize', () => {
-        if (window) {
+        if (typeof window !== 'undefined') {
             windowWidth.value = window.innerWidth
         }
     })
 })
 
 const loginMobile = () => {
+    setTimeout(() => {
+        showModal.value = true
+    }, 300)
     mobileMenuOpen.value = false
-    showModal.value = true
 }
 
 const isMobile = computed(() => {
     if (
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(window ? window.navigator.userAgent : 'Mozilla/5.0') ||
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            typeof window !== 'undefined' ? window.navigator.userAgent : 'Mozilla/5.0',
+        ) ||
         windowWidth.value < 1024
     ) {
         return true
