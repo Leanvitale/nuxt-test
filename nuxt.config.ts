@@ -13,22 +13,33 @@ export default defineNuxtConfig({
     i18n: {
         lazy: true,
         langDir: 'locales',
-        strategy: 'prefix_and_default',
+        strategy: 'prefix',
         locales: [
-            {
-                code: 'en',
-                name: 'English',
-                file: 'en.json',
-            },
             {
                 code: 'es',
                 name: 'Spanish',
                 file: 'es.json',
             },
+            {
+                code: 'en',
+                name: 'English',
+                file: 'en.json',
+            },
         ],
         defaultLocale: 'en',
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: 'i18n_redirected',
+            onlyOnRoot: true, // solo en la página principal
+        },
+        vueI18nLoader: true,
+        noPrefixDefaultLocale: true,
         vueI18n: {
             fallbackLocale: 'en',
+            messages: {
+                en: require('./src/locales/en.json'),
+                es: require('./src/locales/es.json'),
+            },
         },
     },
 })

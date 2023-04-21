@@ -1,3 +1,6 @@
+
+import { FAQs } from '~~/.nuxt/components';
+
 <template>
     <div>
         <navbar />
@@ -14,7 +17,7 @@
             <quote />
         </section>
 
-        <section class="py-16 lg:py-12">
+        <section class="py-16 lg:py-12" id="Features">
             <benefits />
         </section>
 
@@ -22,12 +25,22 @@
             <call-to-action-city />
         </section>
 
-        <section class="py-16 lg:py-12">
+        <section class="py-16 lg:py-12" id="Pricing">
             <pricing />
         </section>
 
-        <section class="py-16 lg:py-12">
+        <section class="py-16 lg:py-28">
             <call-to-action />
         </section>
+
+        <section class="py-16 lg:py-12">
+            <FAQs />
+        </section>
+
+        <section class="py-16 lg:py-12" id="Contact">
+            <contact />
+        </section>
+
+        <footer-section />
     </div>
 </template>

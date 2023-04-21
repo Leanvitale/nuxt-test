@@ -7,33 +7,30 @@
                 <div class="relative px-8">
                     <dt class="text-lg font-semibold leading-7 text-gray-900 flex">
                         <component :is="CalculatorIcon" class="h-6 w-6 text-primary self-center mr-2" aria-hidden="true" />
-                        Doing the math
+                        {{ $t('problems.list.math.title') }}
                     </dt>
                     <dd class="mt-3 text-base leading-7 text-gray-600">
-                        For precise investor stake calculations, avoid rounding errors to prevent long-term negative consequences and losses for the
-                        fund.
+                        {{ $t('problems.list.math.description') }}
                     </dd>
                 </div>
 
                 <div class="relative px-8">
                     <dt class="text-lg font-semibold leading-7 text-gray-900 flex">
                         <component :is="ClockIcon" class="h-6 w-6 text-primary self-center mr-2" aria-hidden="true" />
-                        Support time
+                        {{ $t('problems.list.time.title') }}
                     </dt>
                     <dd class="mt-3 text-base leading-7 text-gray-600">
-                        Investors will want to know how their investments are evolving, which will often require valuable time from the fund manager
-                        to verify basic data.
+                        {{ $t('problems.list.time.description') }}
                     </dd>
                 </div>
 
                 <div class="relative px-8">
                     <dt class="text-lg font-semibold leading-7 text-gray-900 flex">
                         <component :is="ArrowTrendingDownIcon" class="h-6 w-6 text-primary self-center mr-2" aria-hidden="true" />
-                        Focus
+                        {{ $t('problems.list.focus.title') }}
                     </dt>
                     <dd class="mt-3 text-base leading-7 text-gray-600">
-                        Maintaining focus is crucial when managing a fund. Administering the fund can be stressful and complicated, diverting effort
-                        from financial operations.
+                        {{ $t('problems.list.focus.description') }}
                     </dd>
                 </div>
             </dl>

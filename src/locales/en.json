@@ -1,4 +1,14 @@
 {
+    "header": {
+        "description": "Invest Manager is a revolutionary platform that is changing the game for traders managing investment funds and external capital. With its sophisticated automation capabilities, Invest Manager simplifies the administrative component of investment management, allowing traders to focus fully on their operations and investment returns.",
+        "keywords": "Invest Manager, traders, investment management, automation, external capital, capital management, third-party management, investor management, investors",
+        "title": "Invest Manager"
+    },
+    "login": {
+        "manager": "Dashboard of Manager",
+        "investor": "Portal Investor",
+        "close": "Close"
+    },
     "navbar": {
         "features": "Features",
         "pricing": "Pricing",
@@ -18,7 +28,21 @@
     "problems": {
         "intro": "Some problems with",
         "title": "Your Own Investment Fund",
-        "message": "Managing your own investment fund can bring many benefits in the medium and long term, and can be an excellent strategy for an experienced investor or trader looking to climb the ranks in the financial industry. However, it's important to note that managing an investment fund comes with several challenges:"
+        "message": "Managing your own investment fund can bring many benefits in the medium and long term, and can be an excellent strategy for an experienced investor or trader looking to climb the ranks in the financial industry. However, it's important to note that managing an investment fund comes with several challenges:",
+        "list": {
+            "math": {
+                "title": "Doing the math",
+                "description": "For precise investor stake calculations, avoid rounding errors to prevent long-term negative consequences and losses for the fund."
+            },
+            "time": {
+                "title": "Support time",
+                "description": "Investors will want to know how their investments are evolving, which will often require valuable time from the fund manager to verify basic data."
+            },
+            "focus": {
+                "title": "Focus",
+                "description": "Maintaining focus is crucial when managing a fund. Administering the fund can be stressful and complicated, diverting effort from financial operations."
+            }
+        }
     },
     "solution": {
         "slogan": "Save time - Make money",
@@ -84,5 +108,127 @@
                 "message": "An ideal plan for those who break all limits and go for it all."
             }
         }
+    },
+    "faqs": {
+        "intro": "FAQ",
+        "title": "Frequently Asked Questions",
+        "message": "",
+        "list": [
+            {
+                "title": "Is it possible to use Invest Manager from any country?",
+                "message": "Yes, Invest Manager is an administrative management platform that provides comprehensive solutions for traders who manage investment funds and external capital from anywhere. As such, its use is completely legal anywhere in the world."
+            },
+            {
+                "title": "Is Invest Manager safe and reliable?",
+                "message": "Invest Manager is safe and reliable because it uses state-of-the-art security measures to protect its users' information. The platform has an easy-to-use and highly secure interface, as it undergoes regular security audits to ensure that it meets the highest security standards."
+            },
+            {
+                "title": "What type of investment funds can I manage with Invest Manager?",
+                "message": "Invest Manager is a platform designed for anyone who manages third-party capital, regardless of the market or industry they are in."
+            },
+            {
+                "title": "How much time do I need to dedicate to administrative management with Invest Manager?",
+                "message": "The administrative process can take more time at the beginning, as all investors and their investments must be entered. However, once this initial process is completed, adding a new investor with their investment will take a maximum of 3 minutes, and updating the fund value with a 'Close' will take less than 30 seconds. In addition, all calculations are performed automatically, so you will not need to spend more time on this task."
+            },
+            {
+                "title": "How are returns and fees calculated in Invest Manager?",
+                "message": "Invest Manager has sophisticated algorithms that perform the necessary calculations to calculate returns, fees, capital withdrawals, token issuance and removal, among other important operations. These algorithms are the result of much research and rigorous testing, which has allowed us to have a reliable and accurate tool."
+            },
+            {
+                "title": "How can I access the Invest Manager platform?",
+                "message": "Once registered, you can access the platform with the links we have provided below.\n\nI am a Manager: https://admin.investmanager.app\n\nI am an Investor: https://me.investmanager.app"
+            },
+            {
+                "title": "How can I contact the technical support team of Invest Manager?",
+                "message": "You can reach us through our Discord channel. There we will be available to attend to and listen to the needs of all our clients, and thus grow together effectively.\n\nDiscord: link\n\nYou can also contact us by sending an email to: email."
+            },
+            {
+                "title": "Can I try Invest Manager before buying it?",
+                "message": "Of course! Invest Manager is offering its services for free until June. After that date, different plans will be established, although we will continue to include a free plan."
+            },
+            {
+                "title": "What is the cost of Invest Manager and how is payment made?",
+                "message": "Currently, our platform offers its services for free until June. After that date, the plans will have a cost that will be defined jointly with the community through our Discord server. Payment for the plans will be made by credit card."
+            },
+            {
+                "title": "Do I need to be a professional trader to use Invest Manager?",
+                "message": "Our platform is designed to be used by anyone who manages third-party capital and wants to optimize their administrative management. Our goal is to save you time in the process."
+            },
+            {
+                "title": "Can I customize my Invest Manager account?",
+                "message": "Currently, it is only possible to customize the basic information of the fund, which allows investors to show only the name of the fund in which their investment is located. In the future, we plan to improve this experience so that the corporate identity of each professional can be better transmitted."
+            },
+            {
+                "title": "Can I use Invest Manager from my mobile device?",
+                "message": "For Managers, Invest Manager is not optimized for mobile devices, but you can perform basic actions from it, allowing you to update and maintain your fund information from anywhere.\n\nThe platform for Investors is fully optimized for the mobile device and has a PWA version that allows you to download the website for faster access."
+            },
+            {
+                "title": "What happens if I have technical problems with the platform?",
+                "message": "If you need help or have any questions, don't hesitate to contact us directly through our Discord channel or by email. We are here to help and solve any problems you may have.\n\n- Discord: link\n- Email: email"
+            },
+            {
+                "title": "Do you offer any type of training or support to learn how to use Invest Manager?",
+                "message": "Absolutely! We have created Invest Wiki, a place where you can learn how to use the platform in the easiest and fastest way possible.\n\nInvest Wiki: link"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Get in touch",
+        "message": "If you have any questions or want to learn more about Invest Manager, don't hesitate to get in touch with us. You can speak directly with the founders of the platform through our Discord channel. From there, you'll be able to have a direct conversation with us and get answers to all your questions and concerns without intermediaries. We look forward to talking with you soon!",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email",
+        "country": "Country",
+        "phone": "Phone",
+        "signUp": "Sign Up",
+        "signingUp": "Signing Up",
+        "password": "Password",
+        "messageTitle": "Message",
+        "discord": "Chat with us in Discord",
+        "letstalk": "Let's talk",
+        "sending": "Sending..",
+        "alertTitle": "Your message has been sent successfully",
+        "alertMessage": "Thank you for completing our form! We have received your message and will be in touch with you as soon as possible."
+    },
+    "register": {
+        "title": "Create an account",
+        "description": "Don't let fear hold you back. Register and grow your potential.",
+        "titleAlert": "Successful registration!",
+        "messageAlert": "Next, you'll need to activate your account from the email you've received. Once done, log in and complete the process to start using our services. Thank you for trusting us and joining Invest Manager!",
+        "back": "Back to Home"
+    },
+    "benjamin": {
+        "title": "Time is money",
+        "description": "Founder of the United States"
+    },
+    "cityCTA": {
+        "first": "We help you boost your",
+        "second": "growth and reach your goals!"
+    },
+    "ourPlatform": {
+        "titleFirst": "Boost your productivity.",
+        "titleSecond": "Build your Investment Fund.",
+        "message": "Turn your vision into reality and take control of your financial future with our investment fund management platform. Start today and watch your investment grow successfully and productively!",
+        "cta": "Get started",
+        "learnMore": "Learn more"
+    },
+    "footer": {
+        "newslatter": "Subscribe to our Newsletter",
+        "newslatterMessage": "The latest news, articles, resources, and updates.",
+        "emial": "Enter your email",
+        "subscribe": "Subscribe",
+        "subscribing": "Subscribing..",
+        "alertTitle": "Your subscription has been successful",
+        "alertMessage": "You'll be receiving updates and news shortly. Thank you very much!",
+        "links": {
+            "manager": "Manager Dashboard",
+            "investor": "Portal Investor",
+            "wiki": "Wiki Invest Manager",
+            "status": "Status of our services",
+            "discord": "Our Discord"
+        }
+    },
+    "modal": {
+        "thanks": "Thanks"
     }
 }

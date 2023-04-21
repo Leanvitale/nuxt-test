@@ -5,6 +5,7 @@
         "build": "nuxt build",
         "dev": "nuxt dev --port 8080",
         "deploy": "nuxt generate && firebase deploy",
+        "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare"
     },
@@ -21,7 +22,7 @@
         "tailwindcss": "3.3.0"
     },
     "dependencies": {
-        "@headlessui/vue": "1.7.12",
+        "@headlessui/vue": "1.6.4",
         "@heroicons/vue": "2.0.16"
     }
 }

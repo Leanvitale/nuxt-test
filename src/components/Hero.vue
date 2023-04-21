@@ -6,11 +6,12 @@
             <p class="mt-6 mb-9 text-lg leading-8 text-gray-600">
                 {{ $t('hero.description') }}
             </p>
-            <a
-                href="#"
-                class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
-                >{{ $t('hero.cta') }}</a
+            <NuxtLink
+                :to="`/${$i18n.locale}/register`"
+                class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
             >
+                {{ $t('hero.cta') }}
+            </NuxtLink>
         </div>
         <div class="w-full lg:w-1/2">
             <img

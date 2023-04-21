@@ -1,8 +1,8 @@
 <template>
-    <header class="flex items-center justify-center h-96 mb-12 bg-fixed bg-center bg-cover custom-img">
+    <header class="flex items-center justify-center h-96 lg:mb-12 bg-fixed bg-center bg-cover custom-img">
         <div class="p-5 text-5xl text-white font-extrabold bg-opacity-50 rounded-xl text-center text-shadow">
-            We help you boost your<br />
-            growth and reach your goals!
+            {{ $t('cityCTA.first') }}<br />
+            {{ $t('cityCTA.second') }}
         </div>
     </header>
 </template>

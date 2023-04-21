@@ -18,20 +18,22 @@
                     </defs>
                 </svg>
                 <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-                    <h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">
-                        Boost your productivity.<br />Build your Investment Fund.
+                    <h2 h class="text-2xl font-bold tracking-tight text-white sm:text-4xl">
+                        {{ $t('ourPlatform.titleFirst') }} <br />
+                        {{ $t('ourPlatform.titleSecond') }}
                     </h2>
                     <p class="mt-6 text-lg leading-8 text-gray-300">
-                        Turn your vision into reality and take control of your financial future with our investment fund management platform. Start
-                        today and watch your investment grow successfully and productively!
+                        {{ $t('ourPlatform.message') }}
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                        <a
-                            href="#"
+                        <NuxtLink
+                            :to="`/${$i18n.locale}/register`"
                             class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                            >Get started</a
+                            >{{ $t('ourPlatform.cta') }}</NuxtLink
                         >
-                        <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+                        <a href="https://wiki.investmanager.app" target="_blank" class="text-sm font-semibold leading-6 text-white hover:underline"
+                            >{{ $t('ourPlatform.learnMore') }} <span aria-hidden="true">→</span></a
+                        >
                     </div>
                 </div>
                 <div class="relative mt-16 h-80 lg:mt-8">
